@@ -1,5 +1,11 @@
+import math
+import web3
+import scipy
 import numpy as np
 import matplotlib.pyplot as plt
+
+# Ammonia gas absorption with water
+# Calculations are done in SI system
 
 # === INPUT PARAMETERS ===
 G = 1500      # Gas molar flow rate [kmol/h]
